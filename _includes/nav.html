@@ -1,0 +1,56 @@
+<nav class="navbar navbar-default navbar-fixed-top navbar-static">
+    <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a href="/"><img src="/assets/img/5across.png" alt="5across Logo" style="margin: 2px 0;"> </a>
+        </div>
+
+        <div class="navbar-collapse collapse navbar-inner">
+          
+            <ul id="sddm" class="nav navbar-nav right-nav"> <!-- RIGHT ALIGNED NAVBAR -->
+                <li {% if page.path contains 'about' %} class="active" {% endif %} class="dropdown">    <!-- ABOUT -->
+                    <a href="/about/" 
+                    onmouseover="mopen('m1')" 
+                    onmouseout="mclosetime()">About
+                    </a>
+                </li> 
+                <li {% if page.path contains 'schedule' %} class="active" {% endif %} class="dropdown">  <!-- SCHEDULE -->
+                    <a href="/schedule/" 
+                    onmouseover="mopen('m2')" 
+                    onmouseout="mclosetime()">Schedule
+                    </a>
+                </li>
+                <li {% if page.path contains 'how-to-vote' %} class="active" {% endif %} class="dropdown">  <!-- How to Vote -->
+                    <a href="/how-to-vote/" 
+                    onmouseover="mopen('m5')" 
+                    onmouseout="mclosetime()">How To Vote
+                    </a>
+                </li>
+                <li {% if page.path contains 'videos' %} class="active" {% endif %} class="dropdown">  <!-- VIDEOS -->
+                    <a href="/videos/" 
+                    onmouseover="mopen('m5')" 
+                    onmouseout="mclosetime()">Videos
+                    </a>
+                </li>
+                <li {% if page.path contains 'blog' %} class="active" {% endif %} class="dropdown">   <!-- BLOG -->
+                    <a href="/blog/" 
+                    onmouseover="mopen('m4')" 
+                    onmouseout="mclosetime()">Blog
+                    </a>
+                </li>
+                <li {% if page.path contains 'apply' %} class="active" {% endif %} class="dropdown">  <!-- APPLY -->
+                    <a href="/apply/" 
+                    onmouseover="mopen('m2')" 
+                    onmouseout="mclosetime()" id="apply">Apply
+                    </a>
+                </li>
+                
+              </ul>
+          <!-- <div style="clear:both"></div> -->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>

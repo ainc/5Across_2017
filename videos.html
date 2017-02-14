@@ -1,0 +1,36 @@
+---
+layout: page
+permalink: videos/
+title: Videos
+---
+
+<div class="subheader schedule-page"> 
+	<div class="container custom-container">
+    		<h1 class="img-overlay">Videos</h1>
+    		<h2>Click on the links below to watch previous 5 Across contestants!</h2>
+    </div>
+</div>
+
+<div class="container custom-container">
+
+	{% for archive in site.data.video-archives %}
+	<div class="row">
+		<h1 style="font-weight:bold;text-align:center; padding:10px 0;">{{archive.year}}</h1>
+
+		{% for month in archive.months %}
+		<div class="col-md-6" style="padding:2rem 2rem;">
+			<p style="font-weight:bold;text-decoration:underline;">{{month.month}}</p>
+
+			{% for pitch in month.pitches%}
+			<p>{{pitch.pitch}} - <a href="{{pitch.video_url}}">{{pitch.name}}</a></p>
+
+			{% endfor %}
+		</div>
+		{% endfor %}
+		</div>
+		<div class="clear"></div>
+	{% endfor %}
+
+
+
+</div>

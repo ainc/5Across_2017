@@ -1,0 +1,14 @@
+name: 5 Across
+short_description: Pitch Competition for Entrepreneurs
+description: A Lexington based pitch competition where each Five Across meeting features presentations from local entrepreneurs who pitch their idea to a panel of local judges.
+permalink: pretty
+relative_permalinks: false
+include: [_data]
+sass:
+  sass_dir: _scss
+  # style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+exclude:
+  - node_modules
