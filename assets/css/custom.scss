@@ -14,6 +14,8 @@ $color_gray: #CECECE;
 $color_light_gray: rgb(236, 236, 236);
 $black: black;
 $color_silver_chalice_approx: #aaa;
+$color_lime_green: #6C9C40;
+$color_lighter_lime_green: #86BD4B;
 
 @import "bootstrap";
 
@@ -80,6 +82,15 @@ $mobile-width: $tablet-width - 1;
 					Consistencies
 *****************************************************/
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .center {
 	text-align: center;
 	margin: auto;
@@ -89,20 +100,20 @@ h2 {
 	color: $color_cardinal_approx;
 	margin: 20px 0;
 	@include mobile {
-		font-size: 16px;
+		font-size: 22px;
 	}
 }
 h3 {
 	color: $color_cardinal_approx;
 	margin: 20px 0;
 	@include mobile {
-		font-size: 16px;
+		font-size: 22px;
 	}
 }
 p {
 	@include mobile {
-		font-size: 13px;
-		line-height: 15px;
+		font-size: 20px;
+		line-height: 24px;
 	}
 }
 .custom-container {
@@ -117,7 +128,7 @@ iframe {
 		height: 350px;
 	}
 	@include mobile {
-		height: 250px;
+		height: 450px;
 	}
 }
 .no-pad-col {
@@ -168,15 +179,18 @@ iframe {
 		@include desktop { font-size: 60px; }
 		@include tablet { font-size: 40px; }
 		@include mobile { 
-			font-size: 30px;
+			font-size: 48px;
 			padding: 80px 0 0 0;
 		}
 	}
 	h2 {
 		color: white;
+		@include mobile { 
+			font-size: 24px;
+		}
 	}
 	@include mobile { 
-		height: 200px;
+		height: 230px;
 		h2 {
 			margin: 10px 0;
 		}
@@ -202,9 +216,9 @@ iframe {
  * White font
  *******************************/
 .btn-action {
-	background-color: $color_cardinal_approx;
+	background-color: $color_lime_green;
 	color: white;
-	border-color: $color_cardinal_approx;
+	border-color: $color_lime_green;
 	border-radius: 6px;
 	font-size: 24px;
 	padding: 2px 14px;
@@ -365,6 +379,11 @@ h5 {
 				Index Page
 ============================================= */
 
+.jumbotron {
+	padding: 0;
+	padding-top:30px;
+}
+
 .home {
 	background-color: #1593D2;
     padding: 2px;
@@ -372,9 +391,21 @@ h5 {
     text-align: center;
 }
 
+.subtitle {
+	font-weight: 700;
+	line-height: 32px;
+	margin-top: 320px;
+	background-color: $color_cardinal_approx;
+	padding: 3rem 2rem;
+	text-align: center;
+}
+
 @include mobile {
 	.subtitle {
-		font-size:28px;
+		font-size:26px;
+		line-height: 30px;
+		margin-top: 250px;
+		padding:1rem 2rem;
 	}
 }
 
@@ -396,7 +427,7 @@ h5 {
 		h4 {
 			text-align:center;
 		}
-		padding: 4rem 0;
+		padding: 4rem 1rem;
 		img {
 			width:100%;
 		}
@@ -437,7 +468,7 @@ h5 {
 	@include mobile {
 		text-align: center;
 	    h2 {
-			font-size: 20px;
+			font-size: 32px;
 			line-height: 23px;
 			margin-top: 5px;
 			margin-bottom: 4px;
@@ -451,6 +482,22 @@ h5 {
 			margin-top: 0;
 			width: 80px;
 			height: 80px;
+		}
+		.icons {
+			padding:0;
+			.col-xs-6 {
+				padding:0;
+			}
+			.col-xs-12 {
+				padding:0;
+			}
+			.row {
+				padding:0;
+				background-color: #F7F7F7;
+			}
+		}
+		.recent-winners .winner {
+			padding: 2.5rem 1rem;
 		}
 	}
 
@@ -501,6 +548,60 @@ h5 {
 	    width: 50%;
 	    display: table-cell;
 	    vertical-align: middle;
+	}
+}
+
+.container {
+	.video-archives {
+		h1 {
+			font-weight: bold;
+			text-align: center;
+			padding: 10px 0;
+		}
+		#month {
+			font-weight:bold;
+			text-decoration:underline;
+		}
+		p {
+			margin-bottom: 5px;
+		}
+	}
+	#awesomevote {
+		width:50%;
+		padding-bottom: 4rem;
+	}
+	@include mobile {
+		p { 
+			font-size: 22px;
+		}
+		#schedule{
+			li {
+				font-size: 22px;
+			}
+		}
+		#instructions{
+			padding-left:1rem;
+			li {
+				font-size: 22px;
+				padding: 5px 0;
+			}
+		}
+		#awesomevote {
+			width:100%;
+		}
+		.video-archives {
+			h1 {
+				font-size: 36px;
+			}
+			#month {
+				font-size: 32px;
+				line-height: 38px;
+				text-decoration:none;
+			}
+			p {
+				margin-bottom: 10px;
+			}
+		}
 	}
 }
 
@@ -613,47 +714,6 @@ h5 {
 }
 
 
-/* =============================================
-					Our Jobs
-================================================ */
-.Our, .OurJobs {
-	margin-top: 50px;
-	.container {
-		padding-top: 50px;
-	}
-	legend {
-		font-size: 34px;
-		font-weight: bold;
-		text-align: center;
-	}
-	h5 {
-		font-size: 24px;
-	}
-	b {
-		font-weight: 400;
-		font-size: 20px;
-		margin-bottom: 12px;
-	}
-	p, ul, li {
-		font-size: 18px;
-		line-height: 24px;
-		margin-bottom: 10px;
-	}
-	@include mobile {
-		p {
-			text-align: justify;
-			font-size: 14px;
-			line-height: 20px;
-		}
-	}
-	ul {
-		padding-left: 20px;
-	}
-	.btn {
-		font-size: 22px;
-		font-weight: bold;
-	}
-}
 
 /* =============================================
 					CALENDAR
@@ -718,6 +778,12 @@ h5 {
 .footer {
 	background: #2f2f2f;
 	padding-top: 15px;
+	.sponsors {
+		img {
+			width: 100%;
+			padding: 1rem 0;
+		}
+	}
 	@include desktop {
 		a {
 			font-size: 24px;
@@ -730,17 +796,11 @@ h5 {
 		a {
 			font-size: 12px;
 		}
-		table tbody th {
-			font-size: 15px;
-		}
-		table tbody img {
+		.sponsors img {
 			width: 100%;
 		}
 	}
 	@include mobile {
-		table tbody img {
-			width: 100%;
-		}
 		.table-responsive {
 			border: none;
 		}
@@ -768,14 +828,7 @@ h5 {
 	img {
 		margin-bottom: 10px;
 	}
-	table tbody tr td {
-		width: 25%;
-    	height: 110px;
-    	border-top: none;
-    	padding: 5px;
-    	text-align: center;
-	}
-	table tbody img {
+	.sponsors img {
     	filter: grayscale(100%);
     	-webkit-filter: grayscale(100%);
 	}
@@ -803,6 +856,10 @@ footer {
 		margin-bottom: 0;
 	}
 
+	.col-lg-4 {
+		text-align:center;
+	}
+
 	@include desktop {
 		.col-lg-4 {
 			background: #FFFFFF;
@@ -812,14 +869,21 @@ footer {
 	@include mobile {
 		.col-sm-10 {
 			background: #fff;
+			text-align: center;
 		}
 		#footer-links {
 			background-color: #1593D2;
 			padding: 2.2rem;
-			h3 {
-				color: #fff;
-			}
 			a {
+				color: #fff;
+				font-size:22px;
+				font-weight: 600;
+				line-height:30px;
+			}
+			#location-link {
+				color: $color_lighter_lime_green;
+			}
+			h3 {
 				color: #fff;
 			}
 		}

@@ -178,6 +178,21 @@ input[type="submit"] {
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
+.withImage{
+	   background: url(../img/5acrossLargePitch.jpg);
+	   height: 550px;
+}
+
+@media (max-width: 700px) {
+	.withImage{
+	   background: url(../img/5acrossLargePitch.jpg);
+	   height: 400px;
+	   background-position: center;
+	}
+	.subtitle {
+		margin-top: 300px;
+	}
+}
 
 #headerwrap {
 	background: url(../img/5acrossLargePitch.jpg) no-repeat center top;
