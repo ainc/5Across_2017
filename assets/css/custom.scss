@@ -356,7 +356,6 @@ h5 {
  *****************************/
 .navbar {
 	background-color: #f8f8f8;
-	border-color: #e7e7e7; 
 	span {
 		background-color: $color_gray;
 	}
@@ -375,6 +374,35 @@ h5 {
 	}
 }
 
+.example5 .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.example5 .navbar-brand>img {
+  padding: 0px 3px;
+}
+
+.navbar-default {
+	border-color: transparent;
+}
+
+.navbar { 
+	margin-bottom:0;
+	border:none;
+}
+
+.navbar-brand {
+	padding: 5px 5px;
+}
+
+.navbar-nav li:hover {
+	background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: $color_cardinal_approx;
+}
+
 /* =============================================
 				Index Page
 ============================================= */
@@ -382,6 +410,7 @@ h5 {
 .jumbotron {
 	padding: 0;
 	padding-top:30px;
+	margin-bottom:0;
 }
 
 .home {
@@ -394,7 +423,7 @@ h5 {
 .subtitle {
 	font-weight: 700;
 	line-height: 32px;
-	margin-top: 320px;
+	margin-top: 430px;
 	background-color: $color_cardinal_approx;
 	padding: 3rem 2rem;
 	text-align: center;
@@ -404,7 +433,7 @@ h5 {
 	.subtitle {
 		font-size:26px;
 		line-height: 30px;
-		margin-top: 250px;
+		margin-top: 290px;
 		padding:1rem 2rem;
 	}
 }
