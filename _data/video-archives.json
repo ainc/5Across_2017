@@ -1,5 +1,40 @@
 [
   {
+    "year":"2017-Archives",
+    "months":[
+      {
+        "month":"Lexington Edition February 22, 2017",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/1NWKgGKjrFc",
+            "name":"Think Hempy Thoughts, Inc"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/0_JRAFOEz_g",
+            "name":"Bluegrass Robotics, LLC"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/bRq7X--4kQI",
+            "name":"Aqui L.L.C"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/u0NTlLWTc5g",
+            "name":"Welcome Home"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/bNmK2icyFy8",
+            "name":"Modern Testament"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "year":"2016-Archives",
     "months":[
       {
