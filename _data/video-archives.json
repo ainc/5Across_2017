@@ -31,6 +31,36 @@
             "name":"Modern Testament"
           }
         ]
+      },
+	  {
+        "month":"Lexington Edition June 28, 2017",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/94Np-6NPH00",
+            "name":"Bill Busters"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/nXkfRpAD5SQ",
+            "name":"Healthcast"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/E-4ZV-qIR-I",
+            "name":"Rise Design"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/oZAU8bDKb6c",
+            "name":"Atomic Universe"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/1LqwwOXxTLI",
+            "name":"Predictive Loyalty Management"
+          }
+        ]
       }
     ]
   },
