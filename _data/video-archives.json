@@ -33,6 +33,36 @@
         ]
       },
 	  {
+        "month":"Lexington Edition April 26, 2017",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://www.youtube.com/watch?v=UyeicQMkycQ",
+            "name":"Smart Student Storage"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://www.youtube.com/watch?v=DvJFoXh6x48",
+            "name":"Klick"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://www.youtube.com/watch?v=jcLQjA_nCaI",
+            "name":"CryoStall"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://www.youtube.com/watch?v=rdIbzZJWsaM",
+            "name":"Commonwork"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://www.youtube.com/watch?v=grRJcm_uB0k",
+            "name":"Nudge"
+          }
+        ]
+      },
+	  {
         "month":"Lexington Edition June 28, 2017",
         "pitches":[
           {
