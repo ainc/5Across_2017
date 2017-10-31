@@ -32,7 +32,7 @@
           }
         ]
       },
-	  {
+      {
         "month":"Lexington Edition April 26, 2017",
         "pitches":[
           {
@@ -62,7 +62,7 @@
           }
         ]
       },
-	  {
+      {
         "month":"Lexington Edition June 28, 2017",
         "pitches":[
           {
@@ -89,6 +89,36 @@
             "pitch":"Fifth Pitch",
             "video_url":"https://youtu.be/1LqwwOXxTLI",
             "name":"Predictive Loyalty Management"
+          }
+        ]
+      },
+      {
+        "month":"Lexington Edition October 25, 2017",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/twaoxM_skTs",
+            "name":"Upper90"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/C6Ru4dog678",
+            "name":"Sum180"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/6gILWZjIWuk",
+            "name":"Life Off-U"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/j9V565OOzc0",
+            "name":"Sustainable Products Company"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/lRyyrRanFU4",
+            "name":"Revive"
           }
         ]
       }
@@ -185,7 +215,7 @@
             "pitch":"Fifth Pitch",
             "video_url":"https://www.youtube.com/watch?v=GcSe1JhNO4E&amp;width=640&amp;height=480",
             "name":"451 Tech"
-          }  
+          }
         ]
       },
       {
@@ -215,7 +245,7 @@
             "pitch":"Fifth Pitch",
             "video_url":"https://www.youtube.com/watch?v=K9-bY_6bIlc&amp;width=640&amp;height=480",
             "name":"Credit Fair E"
-          }  
+          }
         ]
       },
       {
@@ -245,7 +275,7 @@
             "pitch":"Fifth Pitch",
             "video_url":"https://www.youtube.com/watch?v=Ez31R1ihOz0&amp;width=640&amp;height=480",
             "name":"Open Eddi"
-          }  
+          }
         ]
       },
       {
@@ -275,7 +305,7 @@
             "pitch":"Fifth Pitch",
             "video_url":"#",
             "name":"Coming Soon!"
-          }  
+          }
         ]
       }
     ]
