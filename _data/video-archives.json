@@ -93,6 +93,36 @@
         ]
       },
       {
+        "month":"Lexington Edition August 30, 2017",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/REqnOF6pntw",
+            "name":"Enepret"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/vdZQ-mfCr5Q",
+            "name":"BinerWorks, LLC"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/7Vk-A2JZuzk",
+            "name":"Bio-Char"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/JwTNPCoSbl0",
+            "name":"Moby"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/S-OO5utOnk8",
+            "name":"Hummingbird Nano"
+          }
+        ]
+      },
+      {
         "month":"Lexington Edition October 25, 2017",
         "pitches":[
           {
