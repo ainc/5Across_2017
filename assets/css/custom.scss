@@ -216,9 +216,9 @@ iframe {
  * White font
  *******************************/
 .btn-action {
-	background-color: $color_lime_green;
+	background-color: $color_cardinal_approx;
 	color: white;
-	border-color: $color_lime_green;
+	border-color: $color_cardinal_approx_shade;
 	border-radius: 6px;
 	font-size: 24px;
 	padding: 2px 14px;
@@ -908,7 +908,7 @@ footer {
 			text-align: center;
 		}
 		#footer-links {
-			background-color: #1593D2;
+			background-color: $color_cardinal_approx;
 			padding: 2.2rem;
 			a {
 				color: #fff;
@@ -917,7 +917,7 @@ footer {
 				line-height:30px;
 			}
 			#location-link {
-				color: $color_lighter_lime_green;
+				// color: $color_lighter_lime_green;
 			}
 			h3 {
 				color: #fff;
