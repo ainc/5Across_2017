@@ -1,5 +1,40 @@
 [
   {
+    "year":"2018-Archives",
+    "months":[
+      {
+        "month":"Lexington Edition February 28, 2018",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/-JMleXkHBcU",
+            "name":"Handprint"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/Gs0IHZOOd0A",
+            "name":"iReportSource"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/GCfBJ9ZpKhg",
+            "name":"Smart Rotation"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/flLlyRyGHXQ",
+            "name":"Pascal Tags"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/xw-1HEYTB10",
+            "name":"RecruitMeKY"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "year":"2017-Archives",
     "months":[
       {
@@ -149,6 +184,36 @@
             "pitch":"Fifth Pitch",
             "video_url":"https://youtu.be/lRyyrRanFU4",
             "name":"Revive"
+          }
+        ]
+      },
+      {
+        "month":"Lexington Edition December 6, 2017",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/GkERGg_Rm7M",
+            "name":"BillBusters"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/i3mRnITgLbU",
+            "name":"Enepret"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/8ioNIbmy17M",
+            "name":"Welcome Home"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/k-FTsfyxrSA",
+            "name":"Sum180"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/ZQAYopK_Oyk",
+            "name":"Smart Student Storage"
           }
         ]
       }
