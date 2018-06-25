@@ -1,0 +1,36 @@
+<div class="container">
+	<div class="row centered">
+		<div class="modal fade modal-popup" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="searchLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="searchLabel">Search...</h4>
+					</div>
+					<div class="modal-body">
+						<!-- Html Elements for Search -->
+						<div id="search-container">
+						    <input type="text" id="search-input" placeholder="search...">
+						    <ul id="results-container"></ul>
+						</div>
+
+						<!-- Script pointing to search-script.js -->
+						<script src="/js/search-script.js" type="text/javascript"></script>
+						
+						<!-- Configuration -->
+						<script>
+						SimpleJekyllSearch({
+						  searchInput: document.getElementById('search-input'),
+						  resultsContainer: document.getElementById('results-container'),
+						  json: '/search.json'
+						})
+						</script>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</div><!-- /row -->
+</div><!-- /container -->
