@@ -31,6 +31,66 @@
             "name":"RecruitMeKY"
           }
         ]
+      },
+      {
+        "month":"Lexington Edition April 25, 2018",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://www.youtube.com/watch?v=gjK0i3D1D3k",
+            "name":"Chez"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://www.youtube.com/watch?v=e1L9BSnVRxw",
+            "name":"Away Game"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://www.youtube.com/watch?v=LjtEFQ2vEyw",
+            "name":"Cherry"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://www.youtube.com/watch?v=gFtR6vuFGiY",
+            "name":"Whoo.ai"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://www.youtube.com/watch?v=d98NTegciyY",
+            "name":"ZidZid"
+          }
+        ]
+      },
+      {
+        "month":"Lexington Edition June 27, 2018",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://www.youtube.com/watch?v=PKIsNh0Vp-k",
+            "name":"Steader"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://www.youtube.com/watch?v=Bm2bqA4N23A",
+            "name":"Smart Home Care"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://www.youtube.com/watch?v=R18Cd2wHrUE",
+            "name":"Wild Dog Physics"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://www.youtube.com/watch?v=pY_4Mwc0nlA",
+            "name":"Stuph Software"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://www.youtube.com/watch?v=GJg2E_4UBWo",
+            "name":"Cortisoul Innovations"
+          }
+        ]
       }
     ]
   },
