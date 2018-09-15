@@ -5,6 +5,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+.ruby-version
 
 # Bundler
 Gemfile.lock

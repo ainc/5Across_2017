@@ -91,7 +91,37 @@
             "name":"Cortisoul Innovations"
           }
         ]
-      }
+      },
+      {
+        "month":"Lexington Edition August 29, 2018",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/42nwsFNuhb4",
+            "name":"Eddiction"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/kaZFZDlK-6g",
+            "name":"Planstreet"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/9mEY0XMwyhE",
+            "name":"Moolathon"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/iRUwCarct7I",
+            "name":"Lucille 1"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/kPO2dYbtIJ4",
+            "name":"Inside Circle"
+          }
+        ]
+      },
     ]
   },
   {
