@@ -1,0 +1,37 @@
+
+
+
+
+<div class="modal fade register-modal" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="register-label">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times</span></button>
+                <img src="/assets/img/white_ainc_logo.png" id="register-label" alt="Awesome Inc Logo" />
+            </div>
+            <div class="modal-body">
+                <h5>Register to Attend!</h5>
+                <div id="eventbrite-widget-container-50494937718"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '50494937718',
+        iframeContainerId: 'eventbrite-widget-container-50494937718',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
