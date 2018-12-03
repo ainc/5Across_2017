@@ -122,6 +122,36 @@
           }
         ]
       },
+      {
+        "month":"Lexington Edition October 24, 2018",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/PKc0HjxFskw",
+            "name":"Adder"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/jyKP0QM09QQ",
+            "name":"Agent Ally"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/ORDCqIC7gzM",
+            "name":"EZ Gig"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/uyRqxSR8JB8",
+            "name":"Got Equipped"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/FpX0fSNwfps",
+            "name":"Rewind Kentucky"
+          }
+        ]
+      }
     ]
   },
   {
