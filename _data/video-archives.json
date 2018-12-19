@@ -151,6 +151,36 @@
             "name":"Rewind Kentucky"
           }
         ]
+      },
+      {
+        "month":"Lexington Finals Edition December 5, 2018",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/AjXpAtSvF8Y",
+            "name":"Pascal Tags"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/8eQD90ThNC4",
+            "name":"Chez"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/qxEjT-CE_iQ",
+            "name":"Wild Dog Physics"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/2g1B0Wj9wgc",
+            "name":"Moolathon"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/z6WHCFr3yFE",
+            "name":"EZ Gig"
+          }
+        ]
       }
     ]
   },
