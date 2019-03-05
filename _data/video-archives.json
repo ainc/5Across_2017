@@ -1,5 +1,40 @@
 [
   {
+    "year":"2019-Archives",
+    "months":[
+      {
+        "month":"Lexington Edition February 27, 2019",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/MLQR-InxEUU",
+            "name":"EZ Turn"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/tHhiGw533EA",
+            "name":"Penge"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/6JjKq-cOGhU",
+            "name":"Kare Mobile"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/65oBt_Fpico",
+            "name":"Vet's Day Off"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/TBiUTRpoRb4",
+            "name":"Toggle Health"
+          }
+        ]
+      }
+    ]
+  }, 
+  {
     "year":"2018-Archives",
     "months":[
       {
