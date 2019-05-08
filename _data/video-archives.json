@@ -31,6 +31,36 @@
             "name":"Toggle Health"
           }
         ]
+      },
+      {
+        "month":"Lexington Edition April 24, 2019",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/4JyMCrBw6BU",
+            "name":"Meta CT"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/e9RJqMd4fBE",
+            "name":"Forcastr"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/8HhKjvmE7F0",
+            "name":"EZ Chow - winner"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/1ALjBXSTlTU",
+            "name":"Stacks Mobile"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/Q4C19fsgTjs",
+            "name":"MiX Mobile"
+          }
+        ]
       }
     ]
   }, 
