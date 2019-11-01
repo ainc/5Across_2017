@@ -61,6 +61,66 @@
             "name":"MiX Mobile"
           }
         ]
+      },{
+        "month":"Lexington Edition August 28, 2019",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/jYVaBeOX1CM",
+            "name":"Bluegrass Advanced Skincare"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/opFv3Xze4uE",
+            "name":"Raadz"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/B9X6ulVFDAE",
+            "name":"Aviation Safety Resources"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/UjLaYAoPUWk",
+            "name":"Vivi"
+            
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/lFFwZ2o5I3M",
+            "name":"Life Ready Schools"
+          }
+        ]
+      },
+      {
+        "month":"Lexington Edition October 30, 2019",
+        "pitches":[
+          {
+            "pitch":"First Pitch",
+            "video_url":"https://youtu.be/n4lVwYkb17Q",
+            "name":"Cyrano"
+          },
+          {
+            "pitch":"Second Pitch",
+            "video_url":"https://youtu.be/1_B3ZuEf8sM",
+            "name":"Play Vision"
+          },
+          {
+            "pitch":"Third Pitch",
+            "video_url":"https://youtu.be/dmG26LtYcFs",
+            "name":"Stellar Plants - winner"
+          },
+          {
+            "pitch":"Fourth Pitch",
+            "video_url":"https://youtu.be/1ALjBXSTlTU",
+            "name":"The Package Door"
+          },
+          {
+            "pitch":"Fifth Pitch",
+            "video_url":"https://youtu.be/SOxIGvX_bIs",
+            "name":"ParkBot"
+          }
+        ]
       }
     ]
   }, 
